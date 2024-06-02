@@ -1,8 +1,8 @@
 {
     "servers": [
-        {"host": "localhost", "port": 8080},
-        {"host": "localhost", "port": 8081},
-        {"host": "localhost", "port": 8082},
-        {"host": "localhost", "port": 8083}
+        {"host": "localhost", "port": 8080, "timeout": 500},
+        {"host": "localhost", "port": 8081, "timeout": 800},
+        {"host": "localhost", "port": 8082, "timeout": 300},
+        {"host": "localhost", "port": 8083, "timeout": 200}
     ]
 }
